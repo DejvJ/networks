@@ -9,12 +9,12 @@ Value = "testnet2"
 
   [API.GRPC]
     Hosts = [
-      "grpc.venom.tm.p2p.org:443",
       "api-n00.validators-testnet.vega.rocks:3007",
       "api-n02.validators-testnet.vega.rocks:3007",
       "api-n03.validators-testnet.vega.rocks:3007",
       "api-n04.validators-testnet.vega.rocks:3007",
       "api-n05.validators-testnet.vega.rocks:3007",
+      "tls://grpc.venom.tm.p2p.org:443",
       "vega-testnet.anyvalid.com:3007",
       "vega-testnet.nodes.guru:3007"
     ]
@@ -22,16 +22,16 @@ Value = "testnet2"
 
   [API.GraphQL]
     Hosts = [
-      "https://gql.venom.tm.p2p.org/query",
       "https://api-validators-testnet.vega.rocks/graphql",
+      "https://gql.venom.tm.p2p.org/query",
       "https://vega-testnet.anyvalid.com/query",
       "https://vega-testnet.nodes.guru:3008/graphql"
     ]
 
   [API.REST]
     Hosts = [
-      "https://rest.venom.tm.p2p.org",
       "https://api-validators-testnet.vega.rocks",
+      "https://rest.venom.tm.p2p.org",
       "https://vega-testnet.anyvalid.com:3009",
       "https://vega-testnet.nodes.guru:3009"
     ]
